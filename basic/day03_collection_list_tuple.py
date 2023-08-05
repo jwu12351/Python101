@@ -1,7 +1,10 @@
 # -----------------------------------------
 # collection: list、tuple、set、dict
+# list = []
+# tuple = ()
+# set = {1, 2, 3} or set()
+# dict = {} or {'a': 1, 'b': 2}
 # -----------------------------------------
-
 # 1、list：内部元素有序(添加顺序，从0开始)
 list_empty = []
 print(type(list_empty), list_empty)
