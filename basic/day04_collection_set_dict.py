@@ -154,6 +154,7 @@ print(item)
 
 # 排序
 dict1 = {'cat': 10, 'dog': 1, 'bird': 3}
+
 dict_sorted = sorted(dict1.items(), key=lambda x: x[0])  # 0表示第一个key，按key排序
 print(dict_sorted)
 
