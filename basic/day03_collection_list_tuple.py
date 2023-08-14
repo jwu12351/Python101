@@ -11,12 +11,12 @@ print(type(list_empty), list_empty)
 
 list1 = [1, 2, 3, 'a', 1.2]
 list1.append(1)
-list.append(2)
-list.append('a')
-print(list)
+list1.append(2)
+list1.append('a')
+print(list1)
 
 # 查看list内部元素
-print(list1[0], list1[2], list[-1], list[:])
+print(list1[0], list1[2], list1[-1], list1[:])
 
 # 修改内部元素
 list1[0] = 0
